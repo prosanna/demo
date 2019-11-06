@@ -7,11 +7,10 @@
 <title>Guru Logged In</title>
 </head>
 <body>
-	<table style="with: 50%">
-	<tr><td>
-	<% String username = request.getParameter("username"); %>
-<a>Welcome  User!!!! You have logged in.</a></td></tr>
-<a href="index.jsp"><b>Logout</b></a>
+	
+<h1><b>Welcome user!!!! You have logged in.</h1></b><br/>
+
+<input id="bck" type="button" value="Log Out" onClick="JavaScript:window.location='index.jsp';">
 </table>
 </body>
 </html>

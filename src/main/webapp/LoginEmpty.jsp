@@ -8,6 +8,6 @@
 </head>
 <body>
 <h2>Please Enter User name/Password.</h2>
-<input type="button" value="Back" onClick="JavaScript:window.location='index.jsp';">
+<input id="bck" type="button" value="Back" onClick="JavaScript:window.location='index.jsp';">
 </body>
 </html>

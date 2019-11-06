@@ -9,9 +9,9 @@
       <center>
          <h2>Signup Details</h2>
          <form action="LoginCheck.jsp" method="post"> 
-         <br/>Username:<input type="text" name="username"> 
-         <br/>Password:<input type="password" name="password"> 
-         <br/><input type="submit" value="Submit"> 
+         <br/>Username:<input id="user" type="text" name="username"> 
+         <br/>Password:<input id="pass" type="password" name="password"> 
+         <br/><input id="submit" type="submit" value="Submit"> 
          </form>
       </center>
    </body>
